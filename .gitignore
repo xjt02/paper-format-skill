@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Word 输出（禁止提交 .docx 生成物）
+*.docx
+!论文/*.docx
+
+# 临时文件
+*.tmp
+*.log
+.Temp/
+temp/
+
+# 环境变量文件（可能含密钥）
+.env
+.env.local
+
+# 输出目录（禁止提交生成结果）
+output/
+*/output/
+
+# 备份目录
+backup/
+*/backup/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
